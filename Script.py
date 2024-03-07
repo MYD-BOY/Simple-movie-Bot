@@ -195,12 +195,12 @@ Nᴀᴍᴇ - {}"""
 
 <b>
 ╭─────── • ◆ • ───────╮
-🔅 Sᴇɴᴅ Mᴏᴠɪᴇ Fɪʟᴇ Tʜɪs Bᴏᴛ :  <a href="https://t.me/FilmyFl2Bot">Sᴇɴᴅ Tʜɪs Bᴏᴛ</a>
+🔅 <a href="https://t.me/FilmyFl2Bot">Sᴇɴᴅ Mᴏᴠɪᴇ Fɪʟᴇ Tʜɪs Bᴏᴛ</a>
 ╰─────── • ◆ • ───────╯
 
 =========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @FilmClan
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @FilmClan_Group
+▫️ <a href="https://t.me/FilmClan">ᴄʜᴀɴɴᴇʟ</a>
+▫️ <a href="https://t.me/FilmClan_Group">sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</a>
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
