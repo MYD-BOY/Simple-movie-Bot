@@ -12,10 +12,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '25065882'))
-API_HASH = environ.get('API_HASH', '7711af532d45686e38c6b360161e2483')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6930309519:AAHJe_I3fg9p3WvX5VTw3BP1OIAdjcYeX5A")
+SESSION = environ.get("SESSION", "Media_search")
+API_ID = int(environ.get("API_ID", "25065882"))
+API_HASH = environ.get("API_HASH", "7711af532d45686e38c6b360161e2483")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6516874199:AAGPe04GFuz0RmaQPXGRpXWRWRb3LGMLgWw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -42,32 +42,32 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://myd:1mSbGWcHHGpFhcwg@cluster0.pl3b8ro.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://myd:1mSbGWcHHGpFhcwg@cluster0.pl3b8ro.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get("DATABASE_NAME", "Rajappan")
+COLLECTION_NAME = environ.get("COLLECTION_NAME", "Telegram_files")
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/FilmClan")
-VERIFY2_URL = environ.get('VERIFY2_URL', "urlshortx.com")
-VERIFY2_API = environ.get('VERIFY2_API', "7bbbfec870fabf11b3ce6b45b391865d6f2eaca6")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlshortx.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '7bbbfec870fabf11b3ce6b45b391865d6f2eaca6')
-IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
+IS_VERIFY = is_enabled((environ.get("IS_VERIFY", "False")), False)
+HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/FilmClan")
+VERIFY2_URL = environ.get("VERIFY2_URL", "urlshortx.com")
+VERIFY2_API = environ.get("VERIFY2_API", "7bbbfec870fabf11b3ce6b45b391865d6f2eaca6")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "urlshortx.com")
+SHORTLINK_API = environ.get("SHORTLINK_API", "7bbbfec870fabf11b3ce6b45b391865d6f2eaca6")
+IS_SHORTLINK = is_enabled((environ.get("IS_SHORTLINK", "False")), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
-MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
+MAX_BTN = is_enabled((environ.get("MAX_BTN", "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/FilmClan_Group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/FilmClan')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001920843740'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'FilmClan_Group')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get("P_TTI_SHOW_OFF", "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
-AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
-AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
-SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
+AUTO_FFILTER = is_enabled((environ.get("AUTO_FFILTER", "True")), True)
+AUTO_DELETE = is_enabled((environ.get("AUTO_DELETE", "True")), True)
+SINGLE_BUTTON = is_enabled((environ.get("SINGLE_BUTTON", "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
@@ -76,9 +76,9 @@ SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002012320801')).split()]
-MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
-PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
+MELCOW_NEW_USERS = is_enabled((environ.get("MELCOW_NEW_USERS", "True")), True)
+PROTECT_CONTENT = is_enabled((environ.get("PROTECT_CONTENT", "False")), False)
+PUBLIC_FILE_STORE = is_enabled((environ.get("PUBLIC_FILE_STORE", "True")), True)
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
