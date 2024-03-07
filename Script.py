@@ -194,13 +194,13 @@ Nᴀᴍᴇ - {}"""
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
 <b>
-╭─────── • ◆ • ───────╮
-🔅 <a href="https://t.me/FilmyFl2Bot">Sᴇɴᴅ Mᴏᴠɪᴇ Fɪʟᴇ Tʜɪs Bᴏᴛ</a>
-╰─────── • ◆ • ───────╯
+╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗
+<a href="https://t.me/FilmClan">♻️ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗟𝗜𝗡𝗞 ♻️</a>     
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝
 
 =========== • ✠ • ===========
-▫️ <a href="https://t.me/FilmClan">ᴄʜᴀɴɴᴇʟ</a>
 ▫️ <a href="https://t.me/FilmClan_Group">sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</a>
+▫️ <a href="https://t.me/FilmyFl2Bot">Sᴇɴᴅ Mᴏᴠɪᴇ Fɪʟᴇ Tʜɪs Bᴏᴛ</a>
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
