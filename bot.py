@@ -1,9 +1,3 @@
-
-import sys
-import glob
-import importlib
-from pathlib import Path
-from pyrogram import idle
 import logging
 import logging.config
 
@@ -12,40 +6,18 @@ logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("imdbpy").setLevel(logging.ERROR)
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-)
-logging.getLogger("aiohttp").setLevel(logging.ERROR)
-logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
-
 
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
 from database.ia_filterdb import Media
 from database.users_chats_db import db
-from info import *
+from info import SESSION, API_ID, API_HASH, BOT_TOKEN, LOG_STR, LOG_CHANNEL, PORT
 from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
 from Script import script 
 from datetime import date, datetime 
 import pytz
-from aiohttp import web
-from plugins import web_server
-
-import asyncio
-from pyrogram import idle
-from lazybot import LazyPrincessBot
-from util.keepalive import ping_server
-from lazybot.clients import initialize_clients
-
-
-ppath = "plugins/*.py"
-files = glob.glob(ppath)
-LazyPrincessBot.start()
-loop = asyncio.get_event_loop()
-
 
 async def Lazy_start():
     print('\n')
