@@ -14,7 +14,7 @@ RUN cd /
 
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 
-WORKDIR /DQ-the-file-donor
+WORKDIR /Simple-movie-Bot
 
 
 
