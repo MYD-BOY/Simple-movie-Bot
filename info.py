@@ -42,9 +42,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", "False")), False)
 
 # MongoDB information
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://batowaw488:0553569303@cluster0.76wnfl2.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get("DATABASE_NAME", "RIONETWORKS")
-COLLECTION_NAME = environ.get("COLLECTION_NAME", "Telegram_files")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://batowaw488:0553569303@cluster0.76wnfl2.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "RIONETWORKS")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 IS_VERIFY = is_enabled((environ.get("IS_VERIFY", "False")), False)
@@ -63,7 +63,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/FilmClan')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001920843740'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'FilmClan_Group')
-P_TTI_SHOW_OFF = is_enabled((environ.get"'P_TTI_SHOW_OFF", "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get("IMDB", "True")), True)
 AUTO_FFILTER = is_enabled((environ.get("AUTO_FFILTER", "True")), True)
 AUTO_DELETE = is_enabled((environ.get("AUTO_DELETE", "True")), True)
